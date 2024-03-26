@@ -1,0 +1,40 @@
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('/font/Ubuntu-Regular.ttf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('/font/Ubuntu-Light.ttf') format('opentype');
+  }
+  
+
+  :root {
+    --bg-color: #1A1E23;
+    --primary-color: #12f7d6 ;
+    --secondary-color: #98faec;
+    --white-color: #ffffff;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+
+.wrapper {
+    /* padding: 0 20px; */
+    /* background: var(--bg-color); */
+}

@@ -1,0 +1,38 @@
+.heroSection {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+
+.carouselWrapper {
+    margin: 0 20px;
+    width: 100%;
+}
+
+.carousel {
+    display: flex;
+}
+
+.carouselContent {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    width: 70%;
+    /* background: red; */
+
+}
+
+.carouselText {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.carouselImage {
+    /* background: gray; */
+    width: 1000px;
+}
+
+.carouselImage img {
+    width: 100%;
+    object-fit: cover;
+}
